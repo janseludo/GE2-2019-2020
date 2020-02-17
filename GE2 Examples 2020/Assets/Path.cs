@@ -10,7 +10,7 @@ public class Path : MonoBehaviour
 
     public void OnDrawGizmos()
     {
-        Gizmos.color = Color.cyan;
+        Gizmos.color = Color.yellow;
         int count = (looped) ? waypoints.Count + 1 : waypoints.Count ;
         for (int i = 1; i < count; i ++)
         {
