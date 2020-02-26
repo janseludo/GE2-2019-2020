@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - Hand
+>>>>>>> 2f3d690544f4a8c409db11f5a27c31be9fbf517b
   layers:
   - Default
   - TransparentFX

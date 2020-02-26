@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -305,13 +305,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.84, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.057307154, y: -0, z: -0, w: 0.99835664}
+  m_LocalPosition: {x: 0, y: 2.75, z: -1.17}
+  m_LocalScale: {x: 1, y: 1, z: 0.33333334}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 1113070336}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 6.571, y: 0, z: 0}
 --- !u!1 &1113070332
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,7 +400,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.84, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 3}
-  m_Children: []
+  m_Children:
+  - {fileID: 534669905}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -420,22 +421,22 @@ MonoBehaviour:
   acceleration: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
   mass: 1
-  maxSpeed: 5
-  maxForce: 10
+  maxSpeed: 80
+  maxForce: 80
   speed: 0
   seekEnabled: 0
-  target: {x: 0, y: 0, z: 10}
+  target: {x: 0, y: 0, z: 0}
   targetTransform: {fileID: 1264469901}
   arriveEnabled: 0
   slowingDistance: 10
   banking: 0.1
-  playerSteeringEnabled: 0
+  playerSteeringEnabled: 1
   playerForce: 100
   damping: 1
-  pathFollowingEnabled: 1
+  pathFollowingEnabled: 0
   waypointDistance: 3
   path: {fileID: 365795607}
-  pursueTarget: {fileID: 0}
+  pursueTarget: {fileID: 1113070337}
   pursueEnabled: 0
   pursueTargetPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1264469897
@@ -616,7 +617,7 @@ Transform:
   m_GameObject: {fileID: 1294725943}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 1000, z: 1}
+  m_LocalScale: {x: 1000, y: 1000, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -657,8 +658,8 @@ MonoBehaviour:
   acceleration: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
   mass: 1
-  maxSpeed: 3
-  maxForce: 10
+  maxSpeed: 80
+  maxForce: 80
   speed: 0
   seekEnabled: 0
   target: {x: 0, y: 0, z: 10}
@@ -745,5 +746,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Scifi Space Battle - serenity/Assets/Scenes.meta
 guid: ff3bda5dcd67a13478641ef5dce69310
+=======
+guid: a3e033327f0d78e44b78830ab3f09e99
+>>>>>>> 2f3d690544f4a8c409db11f5a27c31be9fbf517b:GE2 Examples 2020/Assets/StreamingAssets/SteamVR.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
