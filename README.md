@@ -29,7 +29,29 @@
 - https://github.com/skooter500/GE2-Labtest1-2018
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+## Week 7 - More wandering + obstacle avoidance
+
+## Lab
+I added a new behaviour to the repo called ObstacleAvoidance. 
+
+Create a new scene and create a boid that has Wander and ObstacleAvoidance behaviours enabled. Create an environment from primitives such as cubes and spheres that the your boid can explore. You might have to experiment with the parameters on ObstacleAvoidance to get the boid to explore without colliding. Check this video out for an example of how it might look:
+
+[![YouTube](http://img.youtube.com/vi/qmtxqCU1X5Q/0.jpg)](https://www.youtube.com/watch?v=qmtxqCU1X5Q)
+
+Want an interesting challenge ;-) Place the exploring boids in a this procedural environment:
+
+[![YouTube](http://img.youtube.com/vi/M3iI2l0ltbE/0.jpg)](https://www.youtube.com/watch?v=M3iI2l0ltbE)
+
+
+## Week 6 - Wandering
+## Lab
+
+Try [this lab test](https://github.com/skooter500/GE2-Labtest1-2018) from a couple of years ago
+
+>>>>>>> 1881282a3b54dfe3e420004b785a4fa18e00c510
 ## Week 5
 ### Learning Outcomes 
 - Refactor the code we have been writing to use components
